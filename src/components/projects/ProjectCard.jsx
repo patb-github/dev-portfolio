@@ -46,6 +46,7 @@ const ProjectCard = (props) => {
           ...styles.cardStyle,
           backgroundColor: theme.cardBackground,
           borderColor: theme.cardBorderColor,
+          boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.25)',
         }}
         text={theme.bsSecondaryVariant}
       >
