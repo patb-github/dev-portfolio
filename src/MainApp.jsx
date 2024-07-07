@@ -7,6 +7,7 @@ import endpoints from './constants/endpoints';
 
 function MainApp() {
   const [data, setData] = useState(null);
+  const [projects, setProjects] = useState(null);
 
   useEffect(() => {
     fetch(endpoints.routes, {
@@ -14,6 +15,13 @@ function MainApp() {
     })
       .then((res) => res.json())
       .then((res) => setData(res))
+      .catch((err) => err);
+
+    fetch(endpoints.projects, {
+      method: 'GET',
+    })
+      .then((res) => res.json())
+      .then((res) => setProjects(res.projects))
       .catch((err) => err);
   }, []);
 
@@ -37,6 +45,20 @@ function MainApp() {
                   />
                 );
               })}
+            {projects
+              && projects.map((project) => {
+                const SectionComponent = React.lazy(() => import('./components/projects/' + project.componentName));
+                return (
+                  <Route
+                    key={project.title}
+                    path={`/project/${project.title}`}
+                    component={() => (
+                      <SectionComponent />
+                    )}
+                  />
+                );
+              })}
+            {/* <Route path="/project/:projectName" component={ProjectDetails} /> */}
           </Suspense>
         </Switch>
       </main>
