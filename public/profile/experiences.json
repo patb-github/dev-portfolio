@@ -1,33 +1,36 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Full-time",
+            "title": "Junior Software Developer Bootcamp",
+            "subtitle": "Generation Thailand",
+            "workType": "",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Practiced building web applications by using React for front-end, Node.js for back-end, and MongoDB for database management.",
+                "Developed effective communication, teamwork and time management skills required to succeed in the bootcamp.",
+                "Final Project: MERN Stack CRUD E-commerce Project: Created a responsive travel web-application that allows users to sign up and purchase curated travel programs. The application uses React Router and Axios as front-end dependencies, Express to manage RESTful API, and Mongoose for interacting with MongoDB."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "Apr 2024 - Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Case Writer & Gazette",
+            "subtitle": "Thammasat Undergraduate Business Challenge (TUBC)",
+            "workType": "",
+            "workDescription": [
+                "Delivered cases used for TUBC and The Challenger case competitions.",
+                "Prepared informative gazettes for contestants.",
+                "Proofread content from the committee's communication channels."
+            ],
+            "dateText": "Jan 2021 - Oct 2021"
+        },
+        {
+            "title": "Consulting Intern",
+            "subtitle": "CONC Thammasat",
             "workType": "Internship",
             "workDescription": [
-                "Worked on abc."
+                "Analyzed risks and opportunities for various markets segments for a banking service.",
+                "Developed an ecosystem prioritization framework."
             ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "Jun 2021 - Aug 2021"
         }
     ]
 }
