@@ -1,4 +1,12 @@
-# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mayankagarwal09.dev-portfolio&color=blue)
+# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) 
+
+## Credits
+
+Template by [mayankagarwal09](https://github.com/mayankagarwal09/dev-portfolio)
+
+Photo by <a href="https://storyset.com/work">Work illustrations by Storyset</a>
+
+Logo by <a href="https://www.flaticon.com/free-icons/development" title="development icons">Development icons created by Bharat Icons - Flaticon</a>
 
 ## A minimal portfolio template for Developers!
 

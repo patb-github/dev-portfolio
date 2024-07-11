@@ -56,7 +56,9 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                    <a href="https://storyset.com/work" alt="Work illustrations by Storyset" target="_blank" rel="noreferrer">
+                      <img src={data?.imageSource} alt="profile" height="600px" width="600px" />
+                    </a>
                   </Col>
                 </Row>
               </Fade>
