@@ -45,7 +45,7 @@ const Projects = (props) => {
               <Row xs={1} sm={1} md={2} lg={3} className="g-4">
                 {data.projects?.slice(0, numberOfItems).map((project) => (
                   <Fade key={project.title}>
-                    <Link to={`/project/${project.title}`}>
+                    <Link to={`/project/${project.title}`} style={{ textDecoration: 'none' }}>
                       <ProjectCard project={project} />
                     </Link>
                   </Fade>
