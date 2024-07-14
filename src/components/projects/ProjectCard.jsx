@@ -64,7 +64,11 @@ const ProjectCard = (props) => {
               key={link.href}
               style={styles.buttonStyle}
               variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
+              onClick={(e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                window.open(link.href, '_blank');
+              }}
             >
               {link.text}
             </Button>

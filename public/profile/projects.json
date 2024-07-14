@@ -1,34 +1,13 @@
 {
     "projects" : [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ],
-            "componentName": "DevPortfolio"
-        },
-        {
-            "image" : "images/projects/portfolio-poster.png",
+            "image" : "images/projects/voyage.png",
             "title": "Voyage - Travel App",
-            "bodyText": "- E-commerce web-app for purchasing curated travel packages\n -  Uses React Router and Axios as front-end dependencies.\n - Dark Mode Support",
+            "bodyText": "- E-commerce web-application for purchasing curated travel packages\n - Features user authentication, coupons, cart system and booking page\n - For admins, features CRUD operations for travel packages and coupons",
             "links": [
                 {
                     "text": "GitHub",
-                    "href": "https://https://github.com/Atreides-Group-5"
+                    "href": "https://github.com/Atreides-Group-5"
                 },
                 {
                     "text": "Live",
@@ -39,9 +18,9 @@
                 "React",
                 "Express",
                 "MongoDB",
-                "E-commerce"
+                "Node.js"
             ],
-            "componentName": "DevPortfolio"
+            "componentName": "Voyage"
         }
     ]
 }
